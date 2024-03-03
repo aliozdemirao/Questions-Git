@@ -34,3 +34,14 @@ git pull işleminin başarısız olma nedenleri çeşitlidir ve temelde iki ana 
 İlk olarak, takım arkadaşımızın kodlarını henüz GitHub'a push etmemiş olması.
 Diğer bir potansiyel sorun, kodların farklı bir dalda bulunması ve git pull komutuyla doğru dalın çekilmemesidir.
 ================================================
+
+
+
+4. "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+git fetch origin komutundaki "origin", uzak depoyu temsil eden bir kısaltmadır.
+Bu uzak depo genellikle projenin orijinal kaynak deposudur.
+Yani, git fetch origin komutu, bu uzak depodan gelen değişiklikleri sizin yerel depoya getirir, ancak birleştirme yapmaz. 
+Yerel depo ile uzak depo arasındaki farkları görmek için kullanılır.
+Ayrıca git remote -v komutu yerel depoya bağlı olan uzak depoların listesini ve bu depoların adreslerini gösterir.
+================================================
