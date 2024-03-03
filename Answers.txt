@@ -52,3 +52,18 @@ Ayrıca git remote -v komutu yerel depoya bağlı olan uzak depoların listesini
 
 HEAD, şu anda bulunduğumuz branch üzerindeki en son commit'i (hash'ini işaret eder) gösterir.
 ================================================
+
+
+
+6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"Staging Area" veya "Index" olarak adlandırılan bölge, Git'in işlemlerinde önemli bir rol oynayan geçici bir depolama alanıdır. 
+Bu bölge, değişiklikleri commit etmeden önce hazırlama (staging) aşamasını temsil eder.
+
+İşleyiş şu şekildedir:
+
+Yapılan değişiklikler ilk olarak working directory'de gerçekleşir.
+Ardından, bu değişiklikler "Staging Area" adı verilen bu geçici alana eklenir (git add). 
+Bu aşamada, Git'e hangi değişiklikleri commit etmek istediğinizi belirtmiş olursunuz.
+Son olarak, "Staging Area" üzerindeki değişiklikler commit edilir (git commit) ve projenizin geçmişine eklenir.
+================================================
