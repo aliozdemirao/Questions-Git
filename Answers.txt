@@ -5,3 +5,23 @@ Linus Torvalds, özellikle Linux çekirdek geliştirme süreçlerini daha etkili
 Bu sistem, kaynak kodu yönetiminde çığır açan bir esnekliğe sahiptir ve açık kaynak dünyasında geniş bir kullanıcı kitlesi tarafından benimsenmiştir. 
 Git, yazılım geliştirme projelerinde, değişiklikleri titizlikle takip etmek, paralel geliştirmeleri kolaylaştırmak ve farklı geliştiriciler arasında sorunsuz işbirliği sağlamak için vazgeçilmez bir araçtır.
 ================================================
+
+
+
+2. "git pull" ile "git fetch" komutlarının farkı nedir?
+
+git pull ve git fetch komutları, uzak depodan (remote repository) güncellemeleri almak için kullanılan iki farklı Git komutudur.
+İşlevsel olarak benzer gibi görünseler de, temelde farklı davranışlara sahiptirler.
+
+git fetch:
+git fetch, uzak depodan yeni verileri indirir ve bu verileri lokal depo ile eşler, ancak yerel deponuzdaki mevcut çalışma kopyasını değiştirmez.
+Bu komut, uzak depodaki tüm branch'leri ve commit'leri indirir, ancak lokal depodaki herhangi bir branch'i veya commit'i değiştirmez.
+
+git pull:
+git pull, aslında git fetch komutunu çalıştırır ve ardından otomatik olarak mevcut çalışma kopyanızı (yerel branch'iniz) uzaktaki branch ile birleştirir.
+Yani, git pull, git fetch ve ardından git merge (veya git rebase) işlemlerini otomatikleştirir.
+git pull komutu, yeni verileri almak ve yerel çalışma kopyasını güncellemek istediğinizde kullanılır. Ancak, dikkat edilmelidir ki, bu komut yerel deponuzdaki değişiklikleri etkiler.
+
+Genel olarak, eğer uzak depodaki değişiklikleri incelemek istiyorsanız ve birleştirme işlemi yapmak istemiyorsanız, git fetch kullanabilirsiniz.
+Eğer uzak değişiklikleri alıp hemen lokalde birleştirmek istiyorsanız, git pull kullanabilirsiniz.
+================================================
