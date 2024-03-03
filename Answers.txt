@@ -67,3 +67,20 @@ Ardından, bu değişiklikler "Staging Area" adı verilen bu geçici alana eklen
 Bu aşamada, Git'e hangi değişiklikleri commit etmek istediğinizi belirtmiş olursunuz.
 Son olarak, "Staging Area" üzerindeki değişiklikler commit edilir (git commit) ve projenizin geçmişine eklenir.
 ================================================
+
+
+
+7. "Untracked file" ne demektir?
+
+"Untracked file" (İzlenmeyen dosya), Git'in takip etmediği veya izlemediği dosyaları ifade eder.
+Bu dosyalar, projenin içinde bulunabilir, ancak Git, bu dosyaların değişikliklerini veya durumunu takip etmez.
+
+Yeni bir dosya oluşturduğunuzda veya projeye eklediğiniz bir dosya olduğunda, bu dosya otomatik olarak "untracked" durumuna gelir. 
+Git, bu dosyaları proje geçmişine dahil etmez, yani bu dosyalar bir commit'e dahil edilmez.
+
+İşte bir örnek:
+
+Yeni bir dosya oluşturduğunuzda veya mevcut bir dosyayı projeye eklediğinizde, bu dosya "untracked" durumunda olacaktır.
+Dosyayı "staging area" veya "index" eklerseniz (git add kullanarak), dosya "tracked" durumuna gelir ve bu dosyanın değişiklikleri bir sonraki commit'e dahil edilebilir hale gelir.
+Dosyayı bir commit ile kaydettiğinizde, artık bu dosya projenin geçmişinde izlenen bir dosya olur.
+================================================
