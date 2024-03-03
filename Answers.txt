@@ -25,3 +25,12 @@ git pull komutu, yeni verileri almak ve yerel çalışma kopyasını güncelleme
 Genel olarak, eğer uzak depodaki değişiklikleri incelemek istiyorsanız ve birleştirme işlemi yapmak istemiyorsanız, git fetch kullanabilirsiniz.
 Eğer uzak değişiklikleri alıp hemen lokalde birleştirmek istiyorsanız, git pull kullanabilirsiniz.
 ================================================
+
+
+
+3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+git pull işleminin başarısız olma nedenleri çeşitlidir ve temelde iki ana sebep öne çıkmaktadır:
+İlk olarak, takım arkadaşımızın kodlarını henüz GitHub'a push etmemiş olması.
+Diğer bir potansiyel sorun, kodların farklı bir dalda bulunması ve git pull komutuyla doğru dalın çekilmemesidir.
+================================================
