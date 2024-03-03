@@ -1,0 +1,7 @@
+1. Git Nedir?
+
+Git, Linus Torvalds tarafından geliştirilen ve 2005 yılında ilk kez duyurulan güçlü bir dağıtık versiyon kontrol sistemidir (DVCS). 
+Linus Torvalds, özellikle Linux çekirdek geliştirme süreçlerini daha etkili ve verimli hale getirmek amacıyla Git'i oluşturdu. 
+Bu sistem, kaynak kodu yönetiminde çığır açan bir esnekliğe sahiptir ve açık kaynak dünyasında geniş bir kullanıcı kitlesi tarafından benimsenmiştir. 
+Git, yazılım geliştirme projelerinde, değişiklikleri titizlikle takip etmek, paralel geliştirmeleri kolaylaştırmak ve farklı geliştiriciler arasında sorunsuz işbirliği sağlamak için vazgeçilmez bir araçtır.
+================================================
