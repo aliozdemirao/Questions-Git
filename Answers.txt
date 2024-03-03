@@ -45,3 +45,10 @@ Yani, git fetch origin komutu, bu uzak depodan gelen değişiklikleri sizin yere
 Yerel depo ile uzak depo arasındaki farkları görmek için kullanılır.
 Ayrıca git remote -v komutu yerel depoya bağlı olan uzak depoların listesini ve bu depoların adreslerini gösterir.
 ================================================
+
+
+
+5. "HEAD" kelimesi neyi temsil etmektedir?
+
+HEAD, şu anda bulunduğumuz branch üzerindeki en son commit'i (hash'ini işaret eder) gösterir.
+================================================
