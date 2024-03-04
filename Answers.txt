@@ -275,3 +275,20 @@ Belirli Bir Commit'e Geri Almak:
 git reset --hard commit_sha
 Bu komut, belirli bir commit'e geri alır ve belirtilen commit'ten sonraki tüm commit'leri ve değişiklikleri siler.
 ================================================
+
+
+
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+git commit:
+git commit komutu, çalışma dizinindeki değişiklikleri bir commit olarak kaydetmek için kullanılır.
+Yerel bir depoda gerçekleşen değişiklikleri kaydedip, commit mesajı ile birlikte bir geçmiş noktası oluşturur.
+Commit, sadece yerel depoda yapılır ve henüz uzak depoya gönderilmemiştir.
+
+git push:
+git push komutu, yerel depodaki commit'leri uzak bir depoya göndermek için kullanılır.
+Yapılan commit'leri uzak depo ile senkronize etmek ve diğer geliştiricilerle paylaşmak amacıyla kullanılır.
+Bu komut, yerelde yapılan değişiklikleri uzak depoya "iter" ve paylaşır.
+
+Özetle, git commit yerel depoda değişiklikleri kaydetmek için kullanılırken, git push bu yereldeki commit'leri uzak depoya göndermek ve paylaşmak için kullanılır.
+================================================
