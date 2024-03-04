@@ -127,3 +127,50 @@ echo "# My Project" > ~/.git-templates/ReadMe.md
 git config --global init.templatedir '~/.git-templates'
 Bundan sonra her yeni repo oluşturduğunuzda, "ReadMe.md" dosyası otomatik olarak eklenir.
 ================================================
+
+
+
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Git'teki "branch" (dal) yapısı, projenin farklı çalışma alanlarında bağımsız olarak gelişmesine ve değiştirilmesine olanak tanıyan bir özelliktir.
+Bu, projenin farklı özelliklerinin veya düzeltmelerinin aynı anda geliştirilebileceği ve yönetilebileceği anlamına gelir.
+Her bir dal, kendi bağımsız tarihçesine sahiptir, bu da projenin geçmişini izlemenizi ve belirli bir dal üzerindeki değişiklikleri diğer dallardan ayırmanızı sağlar.
+
+
+Git'in "branch" yapısı şu temel prensipler üzerine kuruludur:
+
+Ana Dal (Main Branch veya Master Branch): 
+Projenin ana geliştirme hattını temsil eder. Genellikle "master" veya "main" adını alır. 
+Bu dal, projenin genel ilerleyişini ve stabil sürümlerini temsil eder.
+
+Yeni Özellik ve İyileştirmeler İçin Yeni Dallar: 
+Yeni özellikler eklemek veya hata düzeltmek için yeni dallar oluşturabilirsiniz. 
+Bu dallar, ana dalın bir kopyasıdır ve üzerlerinde yapılan değişikliklerin ana dala etkileşimi olmaz.
+
+Dal Birleştirmeleri (Merging): 
+Bir dal üzerindeki değişiklikleri ana dala birleştirmek, bu değişikliklerin projenin ana geliştirme hattına entegre edilmesini sağlar. 
+Bu, projede tutarlı bir ilerleme ve uyum sağlar.
+
+
+Branch yapısının avantajları şunlardır:
+
+Paralel Çalışma: 
+Birden fazla kişi aynı projede çalışırken, her biri kendi branch'inde çalışabilir. 
+Bu, ekip üyelerinin birbirlerinin çalışmalarından etkilenmeden paralel olarak geliştirme yapmasına olanak tanır.
+
+Risk Yönetimi: 
+Yeni bir özellik veya değişiklik eklerken, bunu ana projenin mevcut sürümünden bağımsız olarak yapabilirsiniz. 
+Eğer değişiklikler istenmeyen sonuçlar doğurursa, ana projeyi etkilemeden branch'i silerek geri dönebilirsiniz.
+
+Deneme ve Geliştirme: 
+Yeni özelliklerin veya değişikliklerin prototipini oluşturmak veya farklı yaklaşımları denemek için branch'ler kullanılabilir.
+Bu sayede ana projeyi bozmadan farklı fikirleri test edebilirsiniz.
+
+Sürüm Yönetimi: 
+Farklı branch'ler, farklı sürümler veya yayınlar için kullanılabilir. 
+Örneğin, "development", "release" veya "feature" adında farklı branch'ler oluşturabilir ve bu branch'ler aracılığıyla farklı sürümleri yönetebilirsiniz.
+
+İzleme ve Yönetme: 
+Her branch, üzerinde yapılan değişikliklerin tarihçesini ve geçmişini korur. 
+Bu sayede, projenin farklı noktalarını inceleyebilir, geçmişte yapılan değişiklikleri görebilir ve gerektiğinde geri dönebilirsiniz.
+================================================
