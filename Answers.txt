@@ -366,3 +366,20 @@ Tower
 
 Bu araçlar, Git'i daha kolay ve kullanıcı dostu bir şekilde yönetmek için görsel arayüzler sunar.
 ================================================
+
+
+
+23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git:
+Git, bir versiyon kontrol sistemidir ve proje dosyalarının yerel bir depolama alanında sürüm geçmişini takip etmek için kullanılır.
+Geliştiriciler, Git'i yerel olarak bilgisayarlarında kullanır ve proje dosyalarının geçmişini yönetmek ve değişiklikleri izlemek için komut satırı aracılığıyla Git komutlarını kullanırlar.
+
+GitHub:
+GitHub, Git tabanlı bir işbirliği platformudur ve proje dosyalarının bulut tabanlı bir depolama alanında barındırılmasını sağlar.
+Geliştiriciler, GitHub üzerindeki projelere Git kullanarak katkıda bulunabilir, diğer geliştiricilerle işbirliği yapabilir ve projelerin geçmişini ve değişikliklerini izleyebilirler.
+
+GitHub benzeri diğer platformlar şunlardır:
+GitLab
+Bitbucket
+================================================
