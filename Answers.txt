@@ -174,3 +174,17 @@ Farklı branch'ler, farklı sürümler veya yayınlar için kullanılabilir.
 Her branch, üzerinde yapılan değişikliklerin tarihçesini ve geçmişini korur. 
 Bu sayede, projenin farklı noktalarını inceleyebilir, geçmişte yapılan değişiklikleri görebilir ve gerektiğinde geri dönebilirsiniz.
 ================================================
+
+
+
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+git branch
+Bu komut, Git deposundaki tüm branch'leri listeler. Aktif branch, üzerinde çalıştığınız branch, başında bir yıldız (*) ile gösterilir.
+
+git branch feature-branch
+Bu komut sadece branch'i oluşturur, ancak üzerine geçiş yapmaz.
+
+git checkout -b feature-branch
+Bu komut, branch'i oluşturur ve üzerine geçiş yapar.
+================================================
