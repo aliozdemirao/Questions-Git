@@ -93,3 +93,37 @@ Dosyayı bir commit ile kaydettiğinizde, artık bu dosya projenin geçmişinde 
 Bu klasör, Git tarafından kullanılan meta verileri, commit geçmişi, branch bilgileri ve diğer depo ayarlarını içerir. 
 Eğer ".git" klasörünü silerseniz, bu Git deposunun tüm geçmişi, branch'leri, commit'leri ve diğer Git ile ilgili bilgiler kaybolacaktır.
 ================================================
+
+
+
+9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+"git init" komutu, yeni bir Git deposu oluşturur, ancak bu komut varsayılan olarak bir "ReadMe.md" dosyası oluşturmaz. 
+Ancak, bu işlemi otomatikleştirmek için birkaç farklı yol bulunmaktadır. İşte birkaç öneri:
+
+
+Temel bir Shell Komutu ile Oluşturma:
+
+git init && echo "# My Project" > ReadMe.md
+Bu komut, "git init" komutunu çalıştırdıktan sonra "ReadMe.md" dosyasını oluşturur.
+
+
+Bir Bash Scripti Oluşturma:
+
+# init-repo.sh
+#!/bin/bash
+git init
+echo "# My Project" > ReadMe.md
+Ardından bu scripti şu şekilde çalıştırabiliriz: bash init-repo.sh
+
+
+Git Template Kullanma:
+
+Git, yeni bir repo oluştururken belirli bir şablonu takip edebilir. 
+Bu işlem için bir "template" dizini oluşturun ve içine varsayılan "ReadMe.md" dosyasını ekleyin.
+
+mkdir ~/.git-templates
+echo "# My Project" > ~/.git-templates/ReadMe.md
+git config --global init.templatedir '~/.git-templates'
+Bundan sonra her yeni repo oluşturduğunuzda, "ReadMe.md" dosyası otomatik olarak eklenir.
+================================================
