@@ -205,3 +205,11 @@ komutları kullanır.
 
 git clone -b branch-adı repo-url
 ================================================
+
+
+
+14. "Merge conflict" ne demektir?
+
+Merge conflict (birleştirme çakışması), genellikle farklı kaynaklardan gelen değişikliklerin aynı satıra veya aynı dosyaya uygulandığı durumu ifade eder. 
+Bu durum, Git'in otomatik olarak çözemediği bir durumdur ve manuel müdahale gerektirir.
+================================================
