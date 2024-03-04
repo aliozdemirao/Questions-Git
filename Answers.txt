@@ -292,3 +292,28 @@ Bu komut, yerelde yapılan değişiklikleri uzak depoya "iter" ve paylaşır.
 
 Özetle, git commit yerel depoda değişiklikleri kaydetmek için kullanılırken, git push bu yereldeki commit'leri uzak depoya göndermek ve paylaşmak için kullanılır.
 ================================================
+
+
+
+19. Atomic commit ne demektir?
+
+Atomic commit, yapılan commit'in birbirinden bağımsız ve bütünlük taşıyan küçük, özgün değişiklikleri içeren bir işlem olması anlamına gelir. 
+Bu tür bir commit, uygulanan değişikliklerin birbirleriyle mantıklı bir şekilde gruplandığı ve bir bütün olarak kabul edilebilecek bir durumu temsil eder.
+
+Atomic commit prensipleri şunları içerebilir:
+
+Tek Bir Sorumluluk:
+Her commit, sadece bir konsepti, özelliği veya sorumluluğu içermelidir. 
+Birden fazla ve birbirinden bağımsız değişiklikler içeren commit'lerden kaçınılmalıdır.
+
+Bütünlük:
+Commit, bir projenin işlevselliğini veya bütünlüğünü bozmadan önceki durumu temsil etmelidir. 
+Yarım kalmış, eksik veya hatalı commit'lerden kaçınılmalıdır.
+
+Bağımsızlık:
+Her commit, diğer commit'lerden bağımsız olmalıdır. 
+Yani, bir commit'in başarılı olabilmesi için diğer commit'lerin tamamlanmış ve uygulanmış olmasına gerek olmamalıdır.
+
+Atomic commit prensipleri, kod tabanının daha temiz, anlaşılır ve bakımı daha kolay olmasını sağlar. 
+Ayrıca, ekip içinde işbirliğini artırabilir ve değişikliklerin geçmişini izlemeyi kolaylaştırır.
+================================================
