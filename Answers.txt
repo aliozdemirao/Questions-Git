@@ -317,3 +317,26 @@ Yani, bir commit'in başarılı olabilmesi için diğer commit'lerin tamamlanmı
 Atomic commit prensipleri, kod tabanının daha temiz, anlaşılır ve bakımı daha kolay olmasını sağlar. 
 Ayrıca, ekip içinde işbirliğini artırabilir ve değişikliklerin geçmişini izlemeyi kolaylaştırır.
 ================================================
+
+
+
+20. Repository ne demektir?
+
+Repository, bir yazılım projesinin veya bir versiyon kontrol sisteminin merkezi depolama alanını ifade eder. Genellikle "repo" olarak kısaltılır. 
+Bir repository, projenin kaynak kodu, dosyalar, geçmiş commit'leri ve projeyle ilgili diğer önemli bilgileri içerir.
+
+Repository'ler, geliştiricilerin ve yazılım ekiplerinin bir araya gelerek projelerini yönetmelerini sağlar. Temel olarak iki tür repository vardır:
+
+Lokal Repository:
+Bilgisayarınızdaki fiziksel bir depodur.
+Projenin tamamını veya bir kısmını içerir.
+Genellikle geliştirme sırasında kullanılır.
+
+Uzak (Remote) Repository:
+Genellikle bir sunucuda bulunan merkezi bir depodur.
+Birden çok geliştirici veya ekip üyesi, projenin bu uzak depo üzerinde senkronize bir şekilde çalışmasını sağlar.
+Genellikle GitHub, GitLab, Bitbucket gibi platformlarda barınır.
+
+Repository'ler, versiyon kontrol sistemleri (VCS) tarafından yönetilir. 
+Git, Mercurial, Subversion gibi VCS'ler, projelerin geçmişini, değişiklikleri ve işbirliğini yönetmek için kullanılır ve bu VCS'ler genellikle bir repository'nin işleyişini sağlar.
+================================================
