@@ -354,3 +354,15 @@ Farklar:
 "git tag", belirli bir commit'e anlamlı bir isimle etiket eklerken, "git branch" yeni branch'ler oluşturmak ve mevcut branch'leri yönetmek için kullanılır.
 Etiketler, genellikle sürümleri veya önemli yayınları temsil ederken, branch'ler paralel geliştirme veya farklı özellikler üzerinde çalışmayı temsil eder.
 ================================================
+
+
+
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+GitHub Desktop
+Sourcetree
+GitKraken
+Tower
+
+Bu araçlar, Git'i daha kolay ve kullanıcı dostu bir şekilde yönetmek için görsel arayüzler sunar.
+================================================
