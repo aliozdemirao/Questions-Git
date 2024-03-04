@@ -84,3 +84,12 @@ Yeni bir dosya oluşturduğunuzda veya mevcut bir dosyayı projeye eklediğinizd
 Dosyayı "staging area" veya "index" eklerseniz (git add kullanarak), dosya "tracked" durumuna gelir ve bu dosyanın değişiklikleri bir sonraki commit'e dahil edilebilir hale gelir.
 Dosyayı bir commit ile kaydettiğinizde, artık bu dosya projenin geçmişinde izlenen bir dosya olur.
 ================================================
+
+
+
+8. ".git" klasörünü silersek ne olur?
+
+".git" klasörü, bir Git deposunun temel yapı taşlarını içeren kritik bir klasördür. 
+Bu klasör, Git tarafından kullanılan meta verileri, commit geçmişi, branch bilgileri ve diğer depo ayarlarını içerir. 
+Eğer ".git" klasörünü silerseniz, bu Git deposunun tüm geçmişi, branch'leri, commit'leri ve diğer Git ile ilgili bilgiler kaybolacaktır.
+================================================
