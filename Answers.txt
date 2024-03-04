@@ -383,3 +383,21 @@ GitHub benzeri diğer platformlar şunlardır:
 GitLab
 Bitbucket
 ================================================
+
+
+
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
+
+main veya master branch, bir Git deposundaki ana (default) branch'i temsil eder. 
+Bu branch, genellikle projenin ana geliştirme hattını ve genel stabil durumu gösterir.
+
+main veya master branch'inin diğer branchlerden bazı farkları vardır:
+
+Varsayılan Branch Olarak Kullanılması:
+Genellikle, bir Git deposu oluşturulduğunda veya klonlandığında, main veya master branch varsayılan olarak oluşturulur. 
+Diğer branch'ler bu varsayılan branch'ten türetilir.
+
+Ana Geliştirme Hattı Olarak Kullanılması:
+main veya master branch, genellikle bir projenin ana geliştirme hattını temsil eder. 
+Bu branch üzerindeki değişiklikler, genellikle stabil sürümlerin yayımlandığı veya üretim ortamlarına dağıtıldığı sürüm olarak kabul edilir.
+================================================
