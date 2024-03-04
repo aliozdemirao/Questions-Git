@@ -188,3 +188,13 @@ Bu komut sadece branch'i oluşturur, ancak üzerine geçiş yapmaz.
 git checkout -b feature-branch
 Bu komut, branch'i oluşturur ve üzerine geçiş yapar.
 ================================================
+
+
+
+12. Var olan bir "branch"e nasıl geçebiliriz?
+
+git switch feature-branch
+veya
+git checkout feature-branch
+komutları kullanır.
+================================================
