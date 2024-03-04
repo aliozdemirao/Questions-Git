@@ -419,3 +419,16 @@ Derleme sonuçları, geçici dosyalar, önbellek dosyaları ve benzeri geçici v
 Hassas Bilgilerin Korunması:
 API anahtarları, şifreler veya diğer hassas bilgiler gibi özel verilerin depoya eklenmesini engellemek için .gitignore kullanılabilir.
 ================================================
+
+
+
+26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+git push origin --delete branch_name 
+komutu, belirli bir uzak depodan (genellikle "origin") bir branch'i silmek için kullanılır.
+Bu komut, uzak depodaki belirli bir branch'in silinmesini sağlar. Yerel depodaki branch'i etkilemez. 
+
+Yerel depodaki ilgili branch'i silmek için 
+git branch -d feature_branch 
+komutu kullanılabilir.
+================================================
