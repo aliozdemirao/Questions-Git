@@ -198,3 +198,10 @@ veya
 git checkout feature-branch
 komutları kullanır.
 ================================================
+
+
+
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+git clone -b branch-adı repo-url
+================================================
