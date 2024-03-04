@@ -235,3 +235,43 @@ Ayrıca, farklı seçenekler ve filtreler kullanarak gösterilecek bilgileri ve 
 
 16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
+"git diff" komutu, iki durum (commit, branch, vs.) arasındaki değişiklikleri göstermek için kullanılır. 
+Bu durumlar arasındaki değişiklikleri görmek için aşağıdaki kombinasyonları kullanabilirsiniz:
+
+Working Directory ile Staging Area Arasındaki Değişiklikler: 
+git diff
+Bu komut, henüz staging area'ya eklenmemiş değişiklikleri gösterir.
+
+Staging Area ile Son Commit Arasındaki Değişiklikler: 
+git diff --staged
+Bu komut, staging area'da bulunan ancak henüz commitlenmemiş değişiklikleri gösterir.
+
+İki Commit Arasındaki Değişiklikler:
+git diff commit1_sha commit2_sha
+Bu komut, belirli iki commit arasındaki değişiklikleri gösterir.
+
+Branchler Arasındaki Değişiklikler:
+git diff branch1 branch2
+Bu komut, iki branch arasındaki değişiklikleri gösterir.
+================================================
+
+
+
+17. Git reset ile neyi geri alıyoruz?
+
+Staging Alanındaki Değişiklikleri Geri Almak:
+git reset
+Bu komut, sadece staging alanındaki değişiklikleri geri alır, working directory'deki değişiklikleri etkilemez.
+
+Commit'leri Geri Almak:
+git reset HEAD~1
+Bu komut, HEAD'in bir önceki commit'e geri alır, ancak değişiklikleri working directory'de ve staging alanında bırakır.
+
+Commit ve Değişiklikleri Geri Almak:
+git reset --hard HEAD~1
+Bu komut, HEAD'in bir önceki commit'e geri alır ve working directory'de ve staging alanında yapılan değişiklikleri tamamen siler.
+
+Belirli Bir Commit'e Geri Almak:
+git reset --hard commit_sha
+Bu komut, belirli bir commit'e geri alır ve belirtilen commit'ten sonraki tüm commit'leri ve değişiklikleri siler.
+================================================
