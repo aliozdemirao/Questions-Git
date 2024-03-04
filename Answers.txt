@@ -230,3 +230,8 @@ git log komutu, varsayılan olarak en yeni commit'ten başlayarak geçmişi gös
 Ayrıca, farklı seçenekler ve filtreler kullanarak gösterilecek bilgileri ve sıralamayı özelleştirebilirsiniz. 
 Örneğin, belirli bir dosyanın geçmişini görmek veya belirli bir tarih aralığındaki commit'leri incelemek gibi.
 ================================================
+
+
+
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
