@@ -213,3 +213,20 @@ git clone -b branch-adı repo-url
 Merge conflict (birleştirme çakışması), genellikle farklı kaynaklardan gelen değişikliklerin aynı satıra veya aynı dosyaya uygulandığı durumu ifade eder. 
 Bu durum, Git'in otomatik olarak çözemediği bir durumdur ve manuel müdahale gerektirir.
 ================================================
+
+
+
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+
+git log komutu, Git deposundaki commit geçmişini gösteren bir komuttur. 
+Bu komut kullanıldığında, her bir commit ile ilgili aşağıdaki bilgileri görebilirsiniz:
+
+Commit Hash (Kimlik): Her commitin benzersiz bir kimliği vardır. Bu kimlik, commit'in tam olarak tanımlanmasını sağlar.
+Yazar Bilgisi: Kim tarafından yapıldığını gösteren yazar adı ve e-posta bilgisi.
+Tarih ve Saat: Commit'in yapıldığı tarih ve saat bilgisi.
+Commit Mesajı: Geliştirici tarafından yazılan açıklama veya not, commit mesajını temsil eder. Commit'in neyi değiştirdiğini veya eklediğini açıklar.
+
+git log komutu, varsayılan olarak en yeni commit'ten başlayarak geçmişi gösterir. 
+Ayrıca, farklı seçenekler ve filtreler kullanarak gösterilecek bilgileri ve sıralamayı özelleştirebilirsiniz. 
+Örneğin, belirli bir dosyanın geçmişini görmek veya belirli bir tarih aralığındaki commit'leri incelemek gibi.
+================================================
