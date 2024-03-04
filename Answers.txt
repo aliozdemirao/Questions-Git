@@ -401,3 +401,21 @@ Ana Geliştirme Hattı Olarak Kullanılması:
 main veya master branch, genellikle bir projenin ana geliştirme hattını temsil eder. 
 Bu branch üzerindeki değişiklikler, genellikle stabil sürümlerin yayımlandığı veya üretim ortamlarına dağıtıldığı sürüm olarak kabul edilir.
 ================================================
+
+
+
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+.gitignore dosyası, Git tarafından izlenmemesi gereken dosyaları ve dizinleri belirtmek için kullanılan bir dosyadır.
+Bu dosya, Git'in takip etmesini istemediğiniz geçici dosyaları, derleme çıktılarını, kullanıcı özel ayarları gibi öğeleri içerebilir.
+.gitignore dosyası, proje klasörünün kök dizininde bulunur ve bu dosya içinde belirtilen öğeler, Git tarafından görmezden gelinir.
+Yani, bu dosyada belirtilen öğeler, değişiklik geçmişine dahil edilmez veya commit edilmez.
+
+.gitignore dosyasının temel amaçları şunlardır:
+
+Gereksiz Dosyaları ve Klasörleri Engelleme:
+Derleme sonuçları, geçici dosyalar, önbellek dosyaları ve benzeri geçici veya türemiş dosyalar, genellikle depolanmak istenmeyen dosyalardır.
+
+Hassas Bilgilerin Korunması:
+API anahtarları, şifreler veya diğer hassas bilgiler gibi özel verilerin depoya eklenmesini engellemek için .gitignore kullanılabilir.
+================================================
